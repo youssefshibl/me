@@ -1,0 +1,202 @@
+{
+  "personal": {
+    "name": "Youssef Shebl",
+    "title": "Software Engineer",
+    "email": "youssefshibl00@gamil.com",
+    "links": {
+      "github": "https://github.com/youssefshibl",
+      "linkedin": "https://www.linkedin.com/in/youssefshebl/",
+      "leetcode": "https://leetcode.com/youssefshibl000/",
+      "hashnode": "https://youssefshebl.hashnode.dev/",
+      "twitter": "https://twitter.com/youssefshebl159/",
+      "facebook": "https://www.facebook.com/youssefshebl159/",
+      "gmail": "mailto:youssefshibl00@gmail.com"
+    }
+  },
+  "skills": {
+    "html": "html.png",
+    "css": "css.png",
+    "javascript": "js.png",
+    "php": "php.png",
+    "mysql": "mysql.png",
+    "laravel": "laravel.png",
+    "typescript": "typescript.png",
+    "vue": "vue.png",
+    "nodejs": "nodejs.png",
+    "express": "express.png",
+    "mongodb": "mongodb.png",
+    "redis": "redis.svg",
+    "python": "python.png",
+    "linux": "linux.png",
+    "bash": "bash.png",
+    "docker": "docker.png",
+    "git": "git.png",
+    "githubactions": "githubaction.png",
+    "aws": "aws.png",
+    "gitlab": "gitlab.png",
+    "jenkins": "jenkins.png",
+    "ansible": "ansible.png",
+    "vagrant": "vagrant.png"
+  },
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Research Center of the Egyptian Ministry of Defense",
+      "location": "Cairo, Egypt",
+      "type": "Military Service",
+      "from": "3/2023",
+      "to": "3/2024",
+      "description": "Build radars GUI app using electron js, vue js, node js receive data from sockets and display it in-app, make high-performance queries to MySQL database and display it inapp, store data in MongoDB, build ci/cd pipeline using gitlab ci/cd, build docker images manage Linux servers and troubleshoot problems, build some background servers usibuildng python and node js, using leaflet js to display maps and data in the app using redis as cache server and event-driven server(using pub/sub)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chief restaurant",
+      "description": "Chief restaurant is a web app that allows the user to order food from the restaurant, the user can see the menu, add items to the cart, and make an order, the admin can manage the menu, orders, and users, the project contains 2 parts the first part is the front-end part that is built using Vue js, and the second part is the back-end part that is built using laravel, mysql",
+      "stacks": ["vuejs", "laravel", "mysql"],
+      "links": {
+        "github": "https://github.com/youssefshibl/chief_backend",
+        "github": "https://github.com/youssefshibl/chief_frontend",
+        "youtube": "https://youtu.be/CQ0BQYu5ilM?si=7dddiYImQl6xnpAL"
+      }
+    },
+    {
+      "name": "Implementing a simple WebSockets Server & chat app using php native",
+      "description": "This project is a simple example of how to implement a WebSockets server using PHP native, the project contains a simple chat app that allows users to send messages to each other in real-time.",
+      "stacks": ["php", "websocket"],
+      "links": {
+        "github": "https://github.com/youssefshibl/websocket_php"
+      }
+    },
+    {
+      "name": "Websocket Microservices With Redis Pubsub",
+      "description": "This project is a simple example of how to use Websocket with microservices architecture using Redis Pub/Sub, the project contains 3 services, the first service is the main service that has the websocket server, the second service is the publisher service that publishes the message to the Redis channel, and the third service is the subscriber service that subscribes to the Redis channel and sends the message to the main service.",
+      "stacks": ["nodejs", "express", "redis", "websocket"],
+      "links": {
+        "github": "https://github.com/youssefshibl/websocket_microservices_with_redis_pubsub"
+      }
+    },
+    {
+      "name": "Labs Vagrant",
+      "description": " many platform which make labs for you to learn and practice on it , it make vm for you and install all tools you need to start your labs , this architecture apply on many platform like : TryHackMe , HackTheBox ,",
+      "stacks": ["vuejs", "nodejs", "express", "bash", "vagrant", "openvpn"],
+      "links": {
+        "github": "https://github.com/youssefshibl/labs_vagrant"
+      }
+    },
+
+    {
+      "name": "Jest-js Report In Slack Action",
+      "description": "this is custome action to run test and generate json report and upload it to slack",
+      "stacks": ["js", "githubactions", "jest-js", "slack"],
+      "links": {
+        "github": "https://github.com/youssefshibl/jest-report-in-stack-action"
+      }
+    },
+    {
+      "name": "Vue ci/cd jenkins pipeline",
+      "description": "vue app with ci/cd pipeline using jenkins",
+      "stacks": ["vuejs", "jenkins", "docker"],
+      "links": {
+        "github": "https://github.com/youssefshibl/vue-cicd-jenkins-pipeline"
+      }
+    },
+    {
+      "name": "web app 3 tier architecture Aws",
+      "description": "web app with database and cach server ( EC2 + Auto Scale + NLB + RDS + ElastiCache + NAT gateway + Route53 )",
+      "stacks": ["aws"],
+      "links": {
+        "github": "https://github.com/youssefshibl/aws_projects"
+      }
+    },
+    {
+      "name": "Acion Observer",
+      "description": "Action observer is a simple package that allows you to observe your element and when it visible in the borwser it will trigger a action this action may be fetch data from api or anything you want , the main idea of it depend on the Intersection Observer API.",
+      "stacks": ["js", "vuejs"],
+      "links": {
+        "github": "https://github.com/youssefshibl/action-observer"
+      }
+    },
+    {
+      "name": "Ecommerce system API using Express js + Mongoose + Swagger",
+      "description": "E-commerce system API using Express js + Mongoose + Swagger, I make this project to learn how to make a good API using express js and mongoose, and how to document it using swagger, and how to make a good structure for the project.",
+      "stacks": ["nodejs", "express", "mongodb", "swagger"],
+      "links": {
+        "github": "https://github.com/youssefshibl/eCommerce-nodejs"
+      }
+    },
+    {
+      "name": "Bcell Clone From Redis",
+      "description": "bcell is cache server which store data as key-value in Ram like redis writen by python.",
+      "stacks": ["python"],
+      "links": {
+        "github": "https://github.com/youssefshibl/bcell_clone_from_redis"
+      }
+    },
+    {
+      "name": "Englishtyping",
+      "description": "During this period time, I tried to improve my English language then I discover many vocabularies and i wrote it to study them but I hat that every time i look them only so i make this solution to merge between new words and try to fast my typing in keyboard , it get word from by page in notion and display them",
+      "stacks": ["html", "css", "js", "nodejs", "notion api"],
+      "links": {
+        "github": "https://github.com/youssefshibl/englishtyping",
+        "web": "https://englishtyping.onrender.com/"
+      }
+    },
+    {
+      "name": "Medium Blog",
+      "description": "Web app by Laravel, I make a blog like a medium blog,- home page - login/register page - login with (google -Facebook) - posts - save posts - make a list for save posts - profile page - special editor like \"medium\" - multi-language ( ar -en ) - tags for posts - real-time notifications by pusher - real-time chat by pusher - mail system by mail trap - make pdf for writeup - payment system for being premium by myfatoora - comment system - dashboard for admins - small Api from mobile app",
+      "stacks": ["laravel", "html", "css", "js", "mysql", "api"],
+      "links": {
+        "github": "https://github.com/youssefshibl/blog_medium",
+        "youtube": "https://youtu.be/mZZ9iKiS2Qg"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "title": "RedisGears and Write-behind caching strategy",
+      "link": "https://youssefshebl.hashnode.dev/redisgears-and-write-behind-caching-strategy"
+    },
+    {
+      "title": "what is gRPC, and how work, what is protocol buffers, and how it work?",
+      "link": "https://youssefshebl.hashnode.dev/what-is-grpc-and-how-work-what-is-protocol-buffers-and-how-it-work"
+    }
+  ],
+  "books": [
+    {
+      "name": "Alex Petrov - Database Internals. A Deep Dive into How Distributed Data Systems Work",
+      "img": "2.png",
+      "status": 1
+    },
+    {
+      "name": "Kirill Bobrov - Grokking Concurrency-Manning",
+      "img": "1.png",
+      "status": 2
+    },
+    {
+      "name": "System Design Interview An Insider’s Guide by Alex Xu ",
+      "img": "3.png",
+      "status": 2
+    },
+    {
+      "name": "Matt Stauffer - Laravel_ Up & Running_ A Framework for Building Modern PHP Apps",
+      "img": "4.png",
+      "status": 2
+    },
+    {
+      "name": "Hassan Djirdeh, Nate Murray, and Ari Lerner - Fullstack Vue 3_ The Complete Guide to Vue.js-Fullstack.io",
+      "img": "5.png",
+      "status": 2
+    }
+  ],
+  "contributions": [
+    {
+      "name": "Dockge",
+      "url": "https://github.com/louislam/dockge",
+      "PR": [
+        "https://github.com/louislam/dockge/pull/462",
+        "https://github.com/louislam/dockge/pull/460"
+      ]
+    }
+  ]
+}
