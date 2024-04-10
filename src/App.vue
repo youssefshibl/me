@@ -75,7 +75,7 @@ const data = ref({});
 provide("data", data);
 const datafetched = ref(false);
 const FetchData = async () => {
-  const response = await fetch("/data.json");
+  const response = await fetch("/me/data.json");
   const jsonData = await response.json();
   data.value = jsonData;
   datafetched.value = true;
